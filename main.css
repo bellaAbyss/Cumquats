@@ -1,0 +1,96 @@
+body{
+	font-family: "britannic", serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+p{
+	text-indent: 20px;
+}
+h2{
+	color: #800000;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+#head{
+	width: 100%;
+	height: 390px;
+	border: none;
+}
+#main{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#menu{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	float:clear;
+}
+#menu li{
+	text-align: center;
+	background: #e9967a;
+	width: 20%;
+	list-style: none;
+	position: relative;
+	margin: 0px;	
+	float: left;
+	height: 48px;
+	//display:block;
+}
+#menu li a{
+	text-decoration: none;
+	color: #000000;
+	display:block;
+	height:100%;
+	font: 300 20px/48px serif;
+}
+#menu li ul{
+	list-style: none;
+	display: none;
+	position: absolute;
+	height: 48px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#menu li ul li{
+	float: none;
+	width: 100%;
+}
+#menu li:hover, #menu li.jshover{
+	background-color: #ffa07a;
+	display: block;
+}
+#menu li:hover ul, #menu li.jshover ul{
+	background-color: #ffa07a;
+	display: block;
+}
+#content{
+	width: 100%;
+	float: right;
+	border: none;
+	padding: 0px;
+}
+#bottom{
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gold{
+	color: #dc143c;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#pic{
+	margin: 20px;
+}
+#value{
+	background-color:#fffaf0;
+	border-radius: 10px;
+}
